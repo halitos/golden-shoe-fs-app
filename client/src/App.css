@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.size-select {
+  width: 3rem;
+  height: 3rem;
+  border: solid 0.15rem;
+  border-radius: 50%;
+}
+
+a {
+  color: coral;
+  text-decoration: none;
+}
+
+a :hover {
+  color: rgb(18, 184, 120);
+  text-decoration: none;
+}
+
+.add-btn {
+  width: 6rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+.logo {
+  font-size: 4rem;
+}
+
+.card-img {
+  height: 46%;
+}
+
+@media (max-width: 1150px) {
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+}
