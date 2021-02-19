@@ -9,7 +9,7 @@ if (process.env.DATABASE_URL) {
     connectionString: connectionString,
     sslmode: require,
     ssl: {
-      rejectUnauthorised: false,
+      rejectUnauthorized: false,
     },
   };
 } else {
